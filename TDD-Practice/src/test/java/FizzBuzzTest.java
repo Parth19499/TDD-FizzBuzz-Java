@@ -7,8 +7,9 @@ import org.junit.jupiter.api.Test;
 class FizzBuzzTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void normalNumber() {
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("1", fb.convertNumber(1));
 	}
 
 }
