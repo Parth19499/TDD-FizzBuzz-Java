@@ -13,6 +13,7 @@ class FizzBuzzTest {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("1", fb.convertNumber(1));
 		assertEquals("2", fb.convertNumber(2));
+		assertEquals("4", fb.convertNumber(4));
 	}
 
 }
