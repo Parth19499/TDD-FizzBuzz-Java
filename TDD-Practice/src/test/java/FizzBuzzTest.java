@@ -47,5 +47,11 @@ class FizzBuzzTest {
 		assertEquals("Fizz", fb.convertNumber(23));
 		assertEquals("Fizz", fb.convertNumber(43));
 	}
+	
+	@Test
+	void numberContainsFiveInIt() {
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("Buzz", fb.convertNumber(52));
+	}
 
 }
