@@ -28,6 +28,7 @@ class FizzBuzzTest {
 	void numberDivisibleByFive() {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("Buzz", fb.convertNumber(5));
+		assertEquals("Buzz", fb.convertNumber(10));
 	}
 
 }
