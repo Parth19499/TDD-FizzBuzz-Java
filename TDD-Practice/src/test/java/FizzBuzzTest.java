@@ -44,6 +44,7 @@ class FizzBuzzTest {
 	void numberContainsThreeInIt() {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("Fizz", fb.convertNumber(13));
+		assertEquals("Fizz", fb.convertNumber(23));
 	}
 
 }
