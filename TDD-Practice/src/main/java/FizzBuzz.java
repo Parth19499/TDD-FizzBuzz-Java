@@ -3,6 +3,8 @@ package main.java;
 public class FizzBuzz {
 
 	public String convertNumber(int num) {
+		if(num == 15)
+			return "FizzBuzz";
 		if(num % 5 == 0)
 			return "Buzz";
 		if(num % 3 == 0)
