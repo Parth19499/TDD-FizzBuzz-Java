@@ -36,6 +36,7 @@ class FizzBuzzTest {
 	void numberDivisibleByThreeAndFive() {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("FizzBuzz", fb.convertNumber(15));
+		assertEquals("FizzBuzz", fb.convertNumber(30));
 	}
 
 }
