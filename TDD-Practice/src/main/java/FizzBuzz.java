@@ -7,7 +7,7 @@ public class FizzBuzz {
 			return "FizzBuzz";
 		if(num % 5 == 0)
 			return "Buzz";
-		if(num % 3 == 0 || num == 13)
+		if(num % 3 == 0 || String.valueOf(num).contains("3"))
 			return "Fizz";
 		return String.valueOf(num);
 	}
