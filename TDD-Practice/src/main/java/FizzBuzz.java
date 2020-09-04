@@ -3,7 +3,7 @@ package main.java;
 public class FizzBuzz {
 
 	public String convertNumber(int num) {
-		if(num == 5)
+		if(num % 5 == 0)
 			return "Buzz";
 		if(num % 3 == 0)
 			return "Fizz";
