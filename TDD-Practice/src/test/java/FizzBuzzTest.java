@@ -12,6 +12,7 @@ class FizzBuzzTest {
 	void normalNumber() {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("1", fb.convertNumber(1));
+		assertEquals("2", fb.convertNumber(2));
 	}
 
 }
