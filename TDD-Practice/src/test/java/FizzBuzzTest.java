@@ -60,6 +60,7 @@ class FizzBuzzTest {
 	void numberContainingThreeAndFive() {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("FizzBuzz", fb.convertNumber(53));
+		assertEquals("FizzBuzz", fb.convertNumber(35));
 	}
 
 }
