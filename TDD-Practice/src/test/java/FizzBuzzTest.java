@@ -53,6 +53,7 @@ class FizzBuzzTest {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("Buzz", fb.convertNumber(52));
 		assertEquals("Buzz", fb.convertNumber(56));
+		assertEquals("Buzz", fb.convertNumber(58));
 	}
 
 }
