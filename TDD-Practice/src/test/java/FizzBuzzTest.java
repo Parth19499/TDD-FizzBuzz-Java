@@ -67,6 +67,7 @@ class FizzBuzzTest {
 	void numberDivisibleByThreeAndContainsFiveInIt() {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("FizzBuzz", fb.convertNumber(51));
+		assertEquals("FizzBuzz", fb.convertNumber(54));
 	}
 
 }
