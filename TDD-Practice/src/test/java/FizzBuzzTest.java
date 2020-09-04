@@ -31,5 +31,11 @@ class FizzBuzzTest {
 		assertEquals("Buzz", fb.convertNumber(10));
 		assertEquals("Buzz", fb.convertNumber(20));
 	}
+	
+	@Test
+	void numberDivisibleByThreeAndFive() {
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("FizzBuzz", fb.convertNumber(15));
+	}
 
 }
